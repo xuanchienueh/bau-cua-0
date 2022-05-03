@@ -1,0 +1,33 @@
+@-webkit-keyframes xoayvong {
+      from {
+        -webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+      }
+      to {
+        -webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+      }
+    }
+    /* Standard syntax */ 
+    @keyframes xoayvong {
+      from {
+        -webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+      }
+      to {
+        -webkit-transform:rotate(360deg);
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+      }
+    }
+    
+    
+    .img_xuc_xac {
+      animation: xoayvong 0.2s linear 0s 3;
+      -webkit-animation: xoayvong 0.2s linear 0s 3;
+      -moz-animation: xoayvong 0.2s linear 0s 3;
+      -o-animation: xoayvong 0.2s linear 0s 3; 
+    }
